@@ -262,16 +262,20 @@ a:active {
 }
 
 .cart-product-text img{
-    height: 1.5em;
+    height: 1.2em;
     background-color: transparent;
     margin-right: 1vw;
+    padding-left: .75vw;
     cursor: pointer;
+    transform: translateY(10%);
 }
 
 .cart-product-text p{
     font-size: 1.2em;
     margin: 0;
-    margin-right: 1vw;
+    padding-right: .75vw;
+    transform: translateY(10%);
+    border-right: solid 1px #333333;
 }
 
 .cart-product-text h4{
